@@ -15,7 +15,7 @@ Lightweight CLI scaffolding for authorized scan workflows. `vibescan` is an MVP 
 1. Install Go (see Requirements below).
 2. Clone the repo and enter it:
    ```bash
-   git clone <your-fork-or-upstream-url>
+   git clone https://github.com/harshaljain03/VibeScan.git
    cd VibeScan
    ```
 3. Download dependencies and generate `go.sum`:
