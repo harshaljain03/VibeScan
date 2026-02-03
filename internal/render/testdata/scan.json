@@ -1,0 +1,54 @@
+{
+  "tool": "vibescan",
+  "generated_at": "2026-02-03T10:30:00Z",
+  "targets": [
+    {
+      "id": "target-1",
+      "address": "192.0.2.1",
+      "hostname": "example.local",
+      "ports": [
+        {
+          "number": 80,
+          "protocol": "tcp",
+          "state": "open"
+        }
+      ],
+      "services": [
+        {
+          "name": "http",
+          "product": "nginx",
+          "version": "1.25.3",
+          "port": 80,
+          "cves": [
+            {
+              "id": "CVE-2099-0005",
+              "severity": "medium",
+              "description": "Example service vulnerability."
+            }
+          ]
+        }
+      ],
+      "cves": [
+        {
+          "id": "CVE-2099-0001",
+          "severity": "high",
+          "description": "Example vulnerability."
+        }
+      ],
+      "web_technologies": [
+        {
+          "name": "WordPress",
+          "version": "6.4.2",
+          "category": "cms",
+          "cves": [
+            {
+              "id": "CVE-2099-0006",
+              "severity": "low",
+              "description": "Example web tech vulnerability."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
